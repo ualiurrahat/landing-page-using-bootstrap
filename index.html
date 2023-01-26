@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reveal</title>
     <!-- bootstrap file  -->
-    <link rel="stylesheet" href="styles/bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <!-- css stylesheet  -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -16,10 +18,10 @@
     <!-- header  -->
     <header>
         <!-- navbar  -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+        <nav class="navbar navbar-expand-lg container">
             <div class="container-fluid">
-                <h1 class="fw-bold display-3"> <span class="text-primary">Reve</span><span
-                        class="text-secondary">al</span></h1>
+                <h1 class="fw-bold display-3"> <span class="text-color-1">Reve</span><span
+                        class="text-color-2">al</span></h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -28,14 +30,14 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link text-info aria-current="page" href="#">Home</a>
+                            <a class="nav-link text-info aria-current=" page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-info" href="#">About</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link text-info dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                            <a class="nav-link text-info dropdown-toggle" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
                             <ul class="dropdown-menu">
@@ -54,6 +56,60 @@
                 </div>
             </div>
         </nav>
+        <!-- banner  -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item">
+                    <!-- container div to insert image and text inside it. so that we can write over the image smoothly  -->
+                    <div class="banner-img-1 d-flex justify-content-center align-items-center">
+                        <!-- text part  -->
+                        <div class="text-center">
+                            <h2 class="fw-bold display-2 text-color-1">Making <span class="text-color-2">your ideas<br></span> happen!</h2>
+                            <p class="text-color-1">The most informative blockchain news source.Publish multiple articles and videos daily.</p>
+                            <button class="btn btn-bg-1 text-white">Get Started</button>
+                            <button class="btn btn-bg-2 text-white">Our Projects</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item">
+                    <!-- container div to insert image and text inside it. so that we can write over the image smoothly  -->
+                    <div class="banner-img-2 d-flex justify-content-center align-items-center">
+                        <!-- text part  -->
+                        <div class="text-center">
+                            <h2 class="fw-bold display-2 text-color-1">Making <span class="text-color-2">your ideas<br></span> happen!</h2>
+                            <p class="text-color-1">The most informative blockchain news source.Publish multiple articles and videos daily.</p>
+                            <button class="btn btn-bg-1 text-white">Get Started</button>
+                            <button class="btn btn-bg-2 text-white">Our Projects</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item active">
+                    <!-- container div to insert image and text inside it. so that we can write over the image smoothly  -->
+                    <div class="banner-img-3 d-flex justify-content-center align-items-center">
+                        <!-- text part  -->
+                        <div class="text-center">
+                            <h2 class="fw-bold display-2 text-color-1">Making <span class="text-color-2">your ideas<br></span> happen!</h2>
+                            <p class="text-color-1">The most informative blockchain news source.Publish multiple articles and videos daily.</p>
+                            <button class="btn btn-bg-1 text-white">Get Started</button>
+                            <button class="btn btn-bg-2 text-white">Our Projects</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
     </header>
     <!-- main  -->
     <main>
@@ -65,7 +121,10 @@
     </footer>
 
     <!-- boostrap js  -->
-    <script src="js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
 </body>
 
 </html>

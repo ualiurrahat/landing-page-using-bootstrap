@@ -1,3 +1,34 @@
-.navbar-link-color{
-    color:#7697C0 important;
+/* text color  */
+.text-color-1 {
+    color: rgb(26, 44, 148);
+}
+
+.text-color-2 {
+    color: rgb(73, 198, 175);
+}
+
+/* banner image in carousel  */
+.banner-img-1 {
+    background-image: url("../image/carousel/1.jpg");
+    height: 100vh;
+}
+
+.banner-img-2 {
+    background-image: url("../image/carousel/2.jpg");
+    height: 100vh;
+}
+
+.banner-img-3 {
+    background-image: url("../image/carousel/3.jpg");
+    height: 100vh;
+}
+
+/* button background colors  */
+.btn-bg-1 {
+    background-color: rgb(26, 44, 148);
+}
+
+.btn-bg-2 {
+    background-color: rgb(73, 198, 175);
+    ;
 }
